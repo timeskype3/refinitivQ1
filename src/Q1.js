@@ -57,7 +57,6 @@ function Q1() {
     <div className="container">
         <div>
           <input type="number" value={inputNumberState} onChange={(e)=>{handlerNumber(e)}}></input>
-          {inputNumberState}
         </div>
         <div>
           <select onChange={(e)=> handlerCalculationSelected(e)}>
